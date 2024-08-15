@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 13rem;
+  margin-left: 46rem;
+  background-image: url(P_Manohara_Reddy.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-color: black;
+  background-attachment: fixed;
+}
+
+.flag-container {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+}
+
+.frame {
+  width: 100%;
+  height: 100px;
+}
+
+.saffron {
+  background-color: #FF9933; /* Saffron color */
+}
+
+.white {
+  background-color: #FFFFFF; /* White color */
+}
+
+.green {
+  background-color: #138808; /* Green color */
+}
+
+.chakra-container {
+  position: absolute; /* To Make Chakra Float over Frames */
+  top: 50.6%; 
+  left: 50%;
+  transform: translate(-50%, -50%);  /* To Make Chakra Center */
+}
+
+.chakra-img {
+  max-width: 100%;
+  width: 100px;
+  animation: rotate 4s linear infinite;  
+}
+
+/* Rotating Animation CSS */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
